@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,29 @@
 		184D3C7422DAFA06009DF0DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184D3C7222DAFA06009DF0DC /* Main.storyboard */; };
 		184D3C7622DAFA07009DF0DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184D3C7522DAFA07009DF0DC /* Assets.xcassets */; };
 		184D3C7922DAFA07009DF0DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184D3C7722DAFA07009DF0DC /* LaunchScreen.storyboard */; };
+		184D3C8122DB0BE3009DF0DC /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D3C8022DB0BE3009DF0DC /* ViewController2.swift */; };
+		1F8C51792C5387310A431DF2 /* Pods_BeenTogether.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D5C504BBE3731980CF0CA4 /* Pods_BeenTogether.framework */; };
+		41013261230943F40075D408 /* SlideMenuConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41013260230943F40075D408 /* SlideMenuConfig.swift */; };
+		41013263230948430075D408 /* LeftSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41013262230948430075D408 /* LeftSideMenuViewController.swift */; };
+		4101326723095E230075D408 /* LoveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101326623095E230075D408 /* LoveModel.swift */; };
+		41013269230962970075D408 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41013268230962970075D408 /* RealmService.swift */; };
+		4101326B230965990075D408 /* LoveModelRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101326A230965990075D408 /* LoveModelRealm.swift */; };
+		4101326D2309679E0075D408 /* LoveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101326C2309679E0075D408 /* LoveService.swift */; };
+		4109773C2307CCF400E098BA /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109773B2307CCF400E098BA /* SettingViewController.swift */; };
+		411DB93F2308733B00CB99A2 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411DB93D2308733B00CB99A2 /* SettingTableViewCell.swift */; };
+		411DB9402308733B00CB99A2 /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 411DB93E2308733B00CB99A2 /* SettingTableViewCell.xib */; };
+		41567B502305AFC00030BC02 /* OnboardingScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41567B4F2305AFBF0030BC02 /* OnboardingScreen.storyboard */; };
+		4186984A232AAB2E0059AEC2 /* PhotoBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41869849232AAB2E0059AEC2 /* PhotoBookViewController.swift */; };
+		418E12F6232AA87700E5671C /* CalcDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E12F5232AA87700E5671C /* CalcDateViewController.swift */; };
+		418E12F8232AAA2200E5671C /* ThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E12F7232AAA2200E5671C /* ThemesViewController.swift */; };
+		41B35814231EA7CE00912DA1 /* LeftSideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B35812231EA7CE00912DA1 /* LeftSideMenuCell.swift */; };
+		41B35815231EA7CE00912DA1 /* LeftSideMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41B35813231EA7CE00912DA1 /* LeftSideMenuCell.xib */; };
+		41E94851233E478B0083F124 /* SettingCellwSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E9484F233E478B0083F124 /* SettingCellwSwitch.swift */; };
+		41E94852233E478B0083F124 /* SettingCellwSwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41E94850233E478B0083F124 /* SettingCellwSwitch.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05D5C504BBE3731980CF0CA4 /* Pods_BeenTogether.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeenTogether.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		184D3C6B22DAFA06009DF0DC /* BeenTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeenTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184D3C6E22DAFA06009DF0DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184D3C7022DAFA06009DF0DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,28 @@
 		184D3C7522DAFA07009DF0DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184D3C7822DAFA07009DF0DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184D3C7A22DAFA07009DF0DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184D3C8022DB0BE3009DF0DC /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		4101325C230915470075D408 /* libSCLAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSCLAlertView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4101325E230942970075D408 /* libSlideMenuDovi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSlideMenuDovi.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		41013260230943F40075D408 /* SlideMenuConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuConfig.swift; sourceTree = "<group>"; };
+		41013262230948430075D408 /* LeftSideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMenuViewController.swift; sourceTree = "<group>"; };
+		4101326623095E230075D408 /* LoveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveModel.swift; sourceTree = "<group>"; };
+		41013268230962970075D408 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		4101326A230965990075D408 /* LoveModelRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveModelRealm.swift; sourceTree = "<group>"; };
+		4101326C2309679E0075D408 /* LoveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveService.swift; sourceTree = "<group>"; };
+		4109773B2307CCF400E098BA /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		411DB93D2308733B00CB99A2 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		411DB93E2308733B00CB99A2 /* SettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
+		41567B4F2305AFBF0030BC02 /* OnboardingScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingScreen.storyboard; sourceTree = "<group>"; };
+		41869849232AAB2E0059AEC2 /* PhotoBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBookViewController.swift; sourceTree = "<group>"; };
+		418E12F5232AA87700E5671C /* CalcDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcDateViewController.swift; sourceTree = "<group>"; };
+		418E12F7232AAA2200E5671C /* ThemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesViewController.swift; sourceTree = "<group>"; };
+		41B35812231EA7CE00912DA1 /* LeftSideMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMenuCell.swift; sourceTree = "<group>"; };
+		41B35813231EA7CE00912DA1 /* LeftSideMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftSideMenuCell.xib; sourceTree = "<group>"; };
+		41E9484F233E478B0083F124 /* SettingCellwSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCellwSwitch.swift; sourceTree = "<group>"; };
+		41E94850233E478B0083F124 /* SettingCellwSwitch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingCellwSwitch.xib; sourceTree = "<group>"; };
+		60D1A343E68C1F9776422D12 /* Pods-BeenTogether.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeenTogether.release.xcconfig"; path = "Target Support Files/Pods-BeenTogether/Pods-BeenTogether.release.xcconfig"; sourceTree = "<group>"; };
+		C5F1E0AC1E6E461298F07DB8 /* Pods-BeenTogether.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeenTogether.debug.xcconfig"; path = "Target Support Files/Pods-BeenTogether/Pods-BeenTogether.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8C51792C5387310A431DF2 /* Pods_BeenTogether.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +83,8 @@
 			children = (
 				184D3C6D22DAFA06009DF0DC /* BeenTogether */,
 				184D3C6C22DAFA06009DF0DC /* Products */,
+				A292FE4482CCE98FABF75040 /* Pods */,
+				965D1CE696EA29E5E6782D31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +99,91 @@
 		184D3C6D22DAFA06009DF0DC /* BeenTogether */ = {
 			isa = PBXGroup;
 			children = (
+				41CA2176232A63970061F9FA /* Model */,
+				41CA2175232A636E0061F9FA /* Service */,
+				41B35816231EA7D400912DA1 /* Left Side Menu Cell */,
+				41B35811231EA6DD00912DA1 /* Setting Custom Cell */,
+				41E9484E233E471B0083F124 /* Setting Cell w Switch */,
 				184D3C6E22DAFA06009DF0DC /* AppDelegate.swift */,
 				184D3C7022DAFA06009DF0DC /* ViewController.swift */,
 				184D3C7222DAFA06009DF0DC /* Main.storyboard */,
+				41567B4F2305AFBF0030BC02 /* OnboardingScreen.storyboard */,
 				184D3C7522DAFA07009DF0DC /* Assets.xcassets */,
 				184D3C7722DAFA07009DF0DC /* LaunchScreen.storyboard */,
 				184D3C7A22DAFA07009DF0DC /* Info.plist */,
+				184D3C8022DB0BE3009DF0DC /* ViewController2.swift */,
+				4109773B2307CCF400E098BA /* SettingViewController.swift */,
+				41013260230943F40075D408 /* SlideMenuConfig.swift */,
+				41013262230948430075D408 /* LeftSideMenuViewController.swift */,
+				418E12F5232AA87700E5671C /* CalcDateViewController.swift */,
+				418E12F7232AAA2200E5671C /* ThemesViewController.swift */,
+				41869849232AAB2E0059AEC2 /* PhotoBookViewController.swift */,
 			);
 			path = BeenTogether;
+			sourceTree = "<group>";
+		};
+		41B35811231EA6DD00912DA1 /* Setting Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				411DB93D2308733B00CB99A2 /* SettingTableViewCell.swift */,
+				411DB93E2308733B00CB99A2 /* SettingTableViewCell.xib */,
+			);
+			path = "Setting Custom Cell";
+			sourceTree = "<group>";
+		};
+		41B35816231EA7D400912DA1 /* Left Side Menu Cell */ = {
+			isa = PBXGroup;
+			children = (
+				41B35812231EA7CE00912DA1 /* LeftSideMenuCell.swift */,
+				41B35813231EA7CE00912DA1 /* LeftSideMenuCell.xib */,
+			);
+			path = "Left Side Menu Cell";
+			sourceTree = "<group>";
+		};
+		41CA2175232A636E0061F9FA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				41013268230962970075D408 /* RealmService.swift */,
+				4101326C2309679E0075D408 /* LoveService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		41CA2176232A63970061F9FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4101326623095E230075D408 /* LoveModel.swift */,
+				4101326A230965990075D408 /* LoveModelRealm.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41E9484E233E471B0083F124 /* Setting Cell w Switch */ = {
+			isa = PBXGroup;
+			children = (
+				41E9484F233E478B0083F124 /* SettingCellwSwitch.swift */,
+				41E94850233E478B0083F124 /* SettingCellwSwitch.xib */,
+			);
+			path = "Setting Cell w Switch";
+			sourceTree = "<group>";
+		};
+		965D1CE696EA29E5E6782D31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4101325E230942970075D408 /* libSlideMenuDovi.a */,
+				4101325C230915470075D408 /* libSCLAlertView.a */,
+				05D5C504BBE3731980CF0CA4 /* Pods_BeenTogether.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A292FE4482CCE98FABF75040 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5F1E0AC1E6E461298F07DB8 /* Pods-BeenTogether.debug.xcconfig */,
+				60D1A343E68C1F9776422D12 /* Pods-BeenTogether.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 184D3C7D22DAFA07009DF0DC /* Build configuration list for PBXNativeTarget "BeenTogether" */;
 			buildPhases = (
+				0F349304AF8EA5531B68AF6C /* [CP] Check Pods Manifest.lock */,
 				184D3C6722DAFA06009DF0DC /* Sources */,
 				184D3C6822DAFA06009DF0DC /* Frameworks */,
 				184D3C6922DAFA06009DF0DC /* Resources */,
+				6196ABB10D345CE248196032 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,20 +247,80 @@
 			buildActionMask = 2147483647;
 			files = (
 				184D3C7922DAFA07009DF0DC /* LaunchScreen.storyboard in Resources */,
+				41567B502305AFC00030BC02 /* OnboardingScreen.storyboard in Resources */,
 				184D3C7622DAFA07009DF0DC /* Assets.xcassets in Resources */,
+				411DB9402308733B00CB99A2 /* SettingTableViewCell.xib in Resources */,
+				41E94852233E478B0083F124 /* SettingCellwSwitch.xib in Resources */,
+				41B35815231EA7CE00912DA1 /* LeftSideMenuCell.xib in Resources */,
 				184D3C7422DAFA06009DF0DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F349304AF8EA5531B68AF6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeenTogether-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6196ABB10D345CE248196032 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeenTogether/Pods-BeenTogether-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeenTogether/Pods-BeenTogether-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeenTogether/Pods-BeenTogether-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		184D3C6722DAFA06009DF0DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41013261230943F40075D408 /* SlideMenuConfig.swift in Sources */,
+				41013269230962970075D408 /* RealmService.swift in Sources */,
+				418E12F6232AA87700E5671C /* CalcDateViewController.swift in Sources */,
+				4101326723095E230075D408 /* LoveModel.swift in Sources */,
+				411DB93F2308733B00CB99A2 /* SettingTableViewCell.swift in Sources */,
+				4109773C2307CCF400E098BA /* SettingViewController.swift in Sources */,
+				418E12F8232AAA2200E5671C /* ThemesViewController.swift in Sources */,
 				184D3C7122DAFA06009DF0DC /* ViewController.swift in Sources */,
+				4101326B230965990075D408 /* LoveModelRealm.swift in Sources */,
+				4101326D2309679E0075D408 /* LoveService.swift in Sources */,
+				41E94851233E478B0083F124 /* SettingCellwSwitch.swift in Sources */,
 				184D3C6F22DAFA06009DF0DC /* AppDelegate.swift in Sources */,
+				41B35814231EA7CE00912DA1 /* LeftSideMenuCell.swift in Sources */,
+				41013263230948430075D408 /* LeftSideMenuViewController.swift in Sources */,
+				184D3C8122DB0BE3009DF0DC /* ViewController2.swift in Sources */,
+				4186984A232AAB2E0059AEC2 /* PhotoBookViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +464,11 @@
 		};
 		184D3C7E22DAFA07009DF0DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F1E0AC1E6E461298F07DB8 /* Pods-BeenTogether.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85WDH3HS5G;
 				INFOPLIST_FILE = BeenTogether/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +483,11 @@
 		};
 		184D3C7F22DAFA07009DF0DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D1A343E68C1F9776422D12 /* Pods-BeenTogether.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85WDH3HS5G;
 				INFOPLIST_FILE = BeenTogether/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

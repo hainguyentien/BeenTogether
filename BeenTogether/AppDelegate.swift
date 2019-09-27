@@ -16,6 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let isDateSet = UserDefaults.standard.bool(forKey: "isDateSet");
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let getStartedSB = UIStoryboard.init(name: "OnboardingScreen", bundle: nil)
+        let mainSB = UIStoryboard.init(name: "Main", bundle: nil)
+        
+        var rootVC: UIViewController
+        
+        if(isDateSet){
+            rootVC = mainSB.instantiateViewController(withIdentifier: "initVC") as! SlideMenuConfig
+        }else {
+            rootVC = getStartedSB.instantiateViewController(withIdentifier: "scrGetStarted")
+        }
+        
+        self.window?.rootViewController = rootVC
+        self.window?.makeKeyAndVisible()
         return true
     }
 
