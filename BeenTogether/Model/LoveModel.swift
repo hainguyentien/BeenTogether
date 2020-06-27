@@ -16,5 +16,4 @@ struct LoveModel {
     var title: String
     var bottomText: String
     var showFullYear: Bool
-    
 }

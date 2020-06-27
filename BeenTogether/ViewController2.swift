@@ -58,15 +58,15 @@ class ViewController2: UIViewController {
                 newStartDate = Calendar.current.date(byAdding: .day, value: 1, to: startDate)!
             }
             
-            let years = Calendar.current.dateComponents([.year], from: newStartDate, to: now).year!
+            let years = Calendar.current.dateComponents([.year], from: newStartDate, to: now).year ?? 0
 
-            let lastYearAnniversary = Calendar.current.date(byAdding: .year, value: years, to: newStartDate)
+            let lastYearAnniversary = Calendar.current.date(byAdding: .year, value: years, to: newStartDate) ?? Date()
 
-            let months = Calendar.current.dateComponents([.month], from: lastYearAnniversary!, to: now).month!
+            let months = Calendar.current.dateComponents([.month], from: lastYearAnniversary, to: now).month ?? 0
 
-            let lastMonthAnniversary = Calendar.current.date(byAdding: .month, value: months, to: lastYearAnniversary!)
+            let lastMonthAnniversary = Calendar.current.date(byAdding: .month, value: months, to: lastYearAnniversary) ?? Date()
 
-            let days = Calendar.current.dateComponents([.day], from: lastMonthAnniversary!, to: now).day!
+            let days = Calendar.current.dateComponents([.day], from: lastMonthAnniversary, to: now).day ?? 0
 
             if(years == 1) {
                 result = result + "\(years) year "
@@ -90,10 +90,10 @@ class ViewController2: UIViewController {
             let now = Date()
             var newStartDate : Date = startDate
             if !config.startFrom0 {
-                newStartDate = Calendar.current.date(byAdding: .day, value: 1, to: startDate)!
+                newStartDate = Calendar.current.date(byAdding: .day, value: 1, to: startDate) ?? Date()
             }
             
-            let days = Calendar.current.dateComponents([.day], from: newStartDate, to: now).day!
+            let days = Calendar.current.dateComponents([.day], from: newStartDate, to: now).day ?? 0
             if(days == 1) {
                 result = result + "\(days) day"
             }
